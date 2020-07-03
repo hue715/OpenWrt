@@ -1,0 +1,64 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	set network.lan.ipaddr='10.10.10.2'
+	set network.lan.gateway='10.10.10.1'
+	set network.lan.dns='218.2.2.2'
+	set network.lan.ifname='eth0 eth1 eth2 tap_vpn'
+	set network.lan.dns='218.2.2.2 240e:5a::6666'
+	set network.wan.proto=none
+	delete network.wan.ifname
+	set network.wan.type=bridge
+	set network.wan6.proto=none
+	delete network.wan6.ifname
+	set network.wan6.type=bridge
+	commit network
+	delete dhcp.lan
+	commit dhcp
+	set shadowsocksr.@global[0].run_mode='router'
+	set shadowsocksr.@global[0].pdnsd_enable='2'
+	set shadowsocksr.@global[0].dports='2'
+	set shadowsocksr.@global[0].netflix_server='nil'
+	add_list shadowsocksr.@server_subscribe[0].subscribe_url='https://dukousubscribe.club/link/6LMPh4EYfyVRqCfx?mu=1'
+	add_list shadowsocksr.@server_subscribe[0].subscribe_url='https://dukousubscribe.club/v2/6LMPh4EYfyVRqCfx?mu=2'
+	set shadowsocksr.@server_subscribe[0].filter_words='最新域名/过期时间/剩余流量/QQ群/官网/防失联地址/回国'
+	commit shadowsocksr
+	set softethervpn.@softether[0].enable='1'
+	commit softethervpn
+	set unblockneteasemusic.@unblockneteasemusic[0].enable='1'
+	set unblockneteasemusic.@unblockneteasemusic[0].music_source='kuwo'
+	set unblockneteasemusic.@unblockneteasemusic[0].enable_flac='1'
+	set unblockneteasemusic.@unblockneteasemusic[0].advanced_mode='1'
+	set unblockneteasemusic.@unblockneteasemusic[0].hijack_ways='use_ipset'
+	commit unblockneteasemusic
+	delete firewall.@defaults[0].fullcone
+	commit firewall
+	set flowoffload.@flow[0].flow_offloading='0'
+	delete flowoffload.@flow[0].flow_offloading_hw
+	delete flowoffload.@flow[0].dns_server
+	commit flowoffload
+	set forked-daapd.@forked-daapd[0].directories='/mnt/music'
+	set forked-daapd.@forked-daapd[0].enabled='1'
+	commit forked-daapd
+EOF
+
+sed -i '/exit 0/i\sh /sbin/Mount_NAS.sh &&' /etc/rc.local
+
+cat >> /etc/config/white.list <<EOF
+speedtest.net
+synology.com
+openwrt.club
+test-ipv6.com
+EOF
+
+sed -i 's/iptables/# iptables/g' /etc/firewall.user
+
+sed -i 's/openwrt.proxy.ustclug.org/downloads.openwrt.org/g' /etc/opkg/distfeeds.conf
+sed -i 's?src/gz openwrt_helloworld?#src/gz openwrt_helloworld?g' /etc/opkg/distfeeds.conf
+
+sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$Fhn82FO4$XiNY71CYWkEcHT4TuoMhX.:0:0:99999:7:::/g' /etc/shadow
+
+sed -i '/ipv6 = no/i\\ttrusted_networks = { "localhost", "10.10", "fd" }' /etc/init.d/forked-daapd
+
+exit 0
+

@@ -1,0 +1,1227 @@
+tom@tom-virtual-machine1:~/lede$ ./scripts/feeds install -a
+WARNING: Makefile 'package/lean/amule/Makefile' has a dependency on 'libpng', which does not exist
+WARNING: Makefile 'package/lean/amule/Makefile' has a dependency on 'libupnp', which does not exist
+WARNING: Makefile 'package/lean/amule/Makefile' has a build dependency on 'libgd', which does not exist
+WARNING: Makefile 'package/lean/antileech/Makefile' has a build dependency on 'libgd', which does not exist
+WARNING: Makefile 'package/lean/autocore/Makefile' has a dependency on 'bc', which does not exist
+WARNING: Makefile 'package/lean/autocore/Makefile' has a dependency on 'lm-sensors', which does not exist
+WARNING: Makefile 'package/lean/automount/Makefile' has a dependency on 'kmod-fs-exfat', which does not exist
+WARNING: Makefile 'package/lean/autosamba/Makefile' has a dependency on 'luci-app-samba', which does not exist
+WARNING: Makefile 'package/utils/busybox/Makefile' has a dependency on 'libpam', which does not exist
+WARNING: Makefile 'package/utils/busybox/Makefile' has a build dependency on 'libpam', which does not exist
+WARNING: Makefile 'package/network/utils/curl/Makefile' has a dependency on 'libgnutls', which does not exist
+WARNING: Makefile 'package/network/utils/curl/Makefile' has a dependency on 'libopenldap', which does not exist
+WARNING: Makefile 'package/network/utils/curl/Makefile' has a dependency on 'libssh2', which does not exist
+WARNING: Makefile 'package/lean/ddns-scripts_aliyun/Makefile' has a dependency on 'ddns-scripts', which does not exist
+WARNING: Makefile 'package/lean/ddns-scripts_aliyun/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/ddns-scripts_dnspod/Makefile' has a dependency on 'ddns-scripts', which does not exist
+WARNING: Makefile 'package/lean/ddns-scripts_dnspod/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/default-settings/Makefile' has a dependency on 'luci-base', which does not exist
+WARNING: Makefile 'package/lean/dnsforwarder/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/dnsforwarder/Makefile' has a dependency on 'coreutils-base64', which does not exist
+WARNING: Makefile 'package/lean/ipt2socks/Makefile' has a build dependency on 'libuv', which does not exist
+WARNING: Makefile 'package/lean/ipv6-helper/Makefile' has a dependency on 'luci-proto-ipv6', which does not exist
+WARNING: Makefile 'package/lean/ipv6-helper/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/boot/kexec-tools/Makefile' has a dependency on 'liblzma', which does not exist
+WARNING: Makefile 'package/lean/ksmbd-tools/Makefile' has a dependency on 'avahi-daemon', which does not exist
+WARNING: Makefile 'package/lean/ksmbd-tools/Makefile' has a build dependency on 'glib2', which does not exist
+WARNING: Makefile 'package/lean/libidn2/Makefile' has a dependency on 'libunistring', which does not exist
+WARNING: Makefile 'package/network/services/lldpd/Makefile' has a dependency on 'libnetsnmp', which does not exist
+WARNING: Makefile 'package/lean/luci-app-accesscontrol/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-adbyby-plus/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-adbyby-plus/Makefile' has a dependency on 'coreutils', which does not exist
+WARNING: Makefile 'package/lean/luci-app-adbyby-plus/Makefile' has a dependency on 'coreutils-nohup', which does not exist
+WARNING: Makefile 'package/lean/luci-app-adbyby-plus/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-amule/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-arpbind/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-autoreboot/Makefile' has a dependency on 'luci', which does not exist
+WARNING: Makefile 'package/lean/luci-app-autoreboot/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-baidupcs-web/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-baidupcs-web/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-cifsd/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-dnsforwarder/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-dockerman/Makefile' has a dependency on 'docker-ce', which does not exist
+WARNING: Makefile 'package/lean/luci-app-familycloud/Makefile' has a dependency on 'coreutils', which does not exist
+WARNING: Makefile 'package/lean/luci-app-familycloud/Makefile' has a dependency on 'coreutils-nohup', which does not exist
+WARNING: Makefile 'package/lean/luci-app-familycloud/Makefile' has a dependency on 'bash', which does not exist
+WARNING: Makefile 'package/lean/luci-app-familycloud/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-familycloud/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-filetransfer/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-flowoffload/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-frpc/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-frpc/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-guest-wifi/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-haproxy-tcp/Makefile' has a dependency on 'haproxy', which does not exist
+WARNING: Makefile 'package/lean/luci-app-haproxy-tcp/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ipsec-vpnd/Makefile' has a dependency on 'strongswan-minimal', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ipsec-vpnd/Makefile' has a dependency on 'strongswan-mod-xauth-generic', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ipsec-vpnd/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'nginx', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'zoneinfo-asia', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-fpm', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-curl', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-gd', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-iconv', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-json', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-mbstring', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-opcache', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-session', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a dependency on 'php7-mod-zip', which does not exist
+WARNING: Makefile 'package/lean/luci-app-kodexplorer/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/mt/luci-app-mtwifi/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-mwan3helper/Makefile' has a dependency on 'luci-app-mwan3', which does not exist
+WARNING: Makefile 'package/lean/luci-app-mwan3helper/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-n2n_v2/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-netdata/Makefile' has a dependency on 'netdata', which does not exist
+WARNING: Makefile 'package/lean/luci-app-netdata/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-nft-qos/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-nps/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-nps/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-openvpn-server/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-pppoe-relay/Makefile' has a dependency on 'rp-pppoe-common', which does not exist
+WARNING: Makefile 'package/lean/luci-app-pppoe-relay/Makefile' has a dependency on 'rp-pppoe-relay', which does not exist
+WARNING: Makefile 'package/lean/luci-app-pppoe-relay/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-pptp-server/Makefile' has a dependency on 'pptpd', which does not exist
+WARNING: Makefile 'package/lean/luci-app-pptp-server/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-qbittorrent/Makefile' has a dependency on 'python', which does not exist
+WARNING: Makefile 'package/lean/luci-app-qbittorrent/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ramfree/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-samba4/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-sfe/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-softethervpn/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssr-plus/Makefile' has a dependency on 'coreutils', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssr-plus/Makefile' has a dependency on 'coreutils-base64', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssr-plus/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssr-plus/Makefile' has a dependency on 'shadowsocks-libev-ss-redir', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssrserver-python/Makefile' has a dependency on 'python', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ssrserver-python/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-syncdial/Makefile' has a dependency on 'luci-app-mwan3', which does not exist
+WARNING: Makefile 'package/lean/luci-app-syncdial/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ttyd/Makefile' has a dependency on 'ttyd', which does not exist
+WARNING: Makefile 'package/lean/luci-app-ttyd/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockmusic/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockmusic/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockneteasemusic-go/Makefile' has a dependency on 'coreutils-nohup', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockneteasemusic-go/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockneteasemusic-mini/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-unblockneteasemusic-mini/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-usb-printer/Makefile' has a dependency on 'p910nd', which does not exist
+WARNING: Makefile 'package/lean/luci-app-usb-printer/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-v2ray-server/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-verysync/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-vlmcsd/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-vsftpd/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-webadmin/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-wrtbwmon/Makefile' has a dependency on 'luci-app-nlbwmon', which does not exist
+WARNING: Makefile 'package/lean/luci-app-wrtbwmon/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-app-xlnetacc/Makefile' has a dependency on 'wget', which does not exist
+WARNING: Makefile 'package/lean/luci-app-zerotier/Makefile' has a dependency on 'zerotier', which does not exist
+WARNING: Makefile 'package/lean/luci-app-zerotier/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-lib-docker/Makefile' has a dependency on 'luci-lib-json', which does not exist
+WARNING: Makefile 'package/lean/luci-lib-fs/Makefile' has a dependency on 'luci', which does not exist
+WARNING: Makefile 'package/lean/luci-lib-fs/Makefile' has a dependency on 'luci-lib-nixio', which does not exist
+WARNING: Makefile 'package/lean/luci-proto-bonding/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-theme-argon/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/lean/luci-theme-netgear/Makefile' has a build dependency on 'luci-base/host', which does not exist
+WARNING: Makefile 'package/network/utils/nftables/Makefile' has a dependency on 'jansson', which does not exist
+WARNING: Makefile 'package/lean/qt5/Makefile' has a dependency on 'libzstd', which does not exist
+WARNING: Makefile 'package/lean/qt5/Makefile' has a dependency on 'libpcre2-16', which does not exist
+WARNING: Makefile 'package/lean/qt5/Makefile' has a dependency on 'libdouble-conversion', which does not exist
+WARNING: Makefile 'package/lean/qt5/Makefile' has a dependency on 'icu', which does not exist
+WARNING: Makefile 'package/lean/rblibtorrent/Makefile' has a dependency on 'boost', which does not exist
+WARNING: Makefile 'package/lean/rblibtorrent/Makefile' has a dependency on 'boost-system', which does not exist
+WARNING: Makefile 'package/lean/rblibtorrent/Makefile' has a dependency on 'boost-chrono', which does not exist
+WARNING: Makefile 'package/lean/rblibtorrent/Makefile' has a dependency on 'boost-random', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libtirpc', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libcap', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libgnutls', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libtasn1', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libpam', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'attr', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libaio', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libavahi-client', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'python3-cryptodome', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libopenldap', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'jansson', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'libarchive', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'acl', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a dependency on 'attr', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a build dependency on 'libtasn1/host', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a build dependency on 'rpcsvc-proto/host', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a build dependency on 'python3/host', which does not exist
+WARNING: Makefile 'package/lean/samba4/Makefile' has a build dependency on 'perl/host', which does not exist
+WARNING: Makefile 'package/lean/shadowsocksr-libev/Makefile' has a dependency on 'libpcre', which does not exist
+WARNING: Makefile 'package/lean/shadowsocksr-libev/Makefile' has a dependency on 'libpcre', which does not exist
+WARNING: Makefile 'package/lean/shadowsocksr-libev/Makefile' has a dependency on 'libpcre', which does not exist
+WARNING: Makefile 'package/lean/shadowsocksr-libev/Makefile' has a dependency on 'libpcre', which does not exist
+WARNING: Makefile 'package/lean/simple-obfs/Makefile' has a dependency on 'libev', which does not exist
+WARNING: Makefile 'package/lean/simple-obfs/Makefile' has a dependency on 'libev', which does not exist
+WARNING: Makefile 'package/lean/simple-obfs/Makefile' has a build dependency on 'libev', which does not exist
+WARNING: Makefile 'package/lean/trojan/Makefile' has a dependency on 'boost', which does not exist
+WARNING: Makefile 'package/lean/trojan/Makefile' has a dependency on 'boost-system', which does not exist
+WARNING: Makefile 'package/lean/trojan/Makefile' has a dependency on 'boost-program_options', which does not exist
+WARNING: Makefile 'package/lean/trojan/Makefile' has a dependency on 'boost-date_time', which does not exist
+WARNING: Makefile 'package/lean/UnblockNeteaseMusic/Makefile' has a dependency on 'node', which does not exist
+WARNING: Makefile 'package/lean/UnblockNeteaseMusicGo/Makefile' has a build dependency on 'golang/host', which does not exist
+WARNING: Makefile 'package/lean/v2ray/Makefile' has a build dependency on 'golang/host', which does not exist
+WARNING: Makefile 'package/lean/v2ray-plugin/Makefile' has a build dependency on 'golang/host', which does not exist
+WARNING: Makefile 'package/lean/wxbase/Makefile' has a dependency on 'libexpat', which does not exist
+Installing all packages from feed packages.
+Installing package 'acl' from packages
+Installing package 'attr' from packages
+Installing package 'acme' from packages
+Installing package 'wget' from packages
+Installing package 'pcre' from packages
+Installing package 'socat' from packages
+Installing package 'luci-base' from luci
+Installing package 'luci-lib-nixio' from luci
+Installing package 'luci-lib-ip' from luci
+Installing package 'luci-lib-jsonc' from luci
+Installing package 'acpica-unix' from packages
+Installing package 'acpid' from packages
+Installing package 'adblock' from packages
+Installing package 'addrwatch' from packages
+Installing package 'aggregate' from packages
+Installing package 'aircrack-ng' from packages
+Installing package 'procps-ng' from packages
+Installing package 'pciutils' from packages
+Installing package 'kmod' from packages
+Installing package 'alpine' from packages
+Installing package 'libpam' from packages
+Installing package 'alsa-lib' from packages
+Installing package 'alsa-utils' from packages
+Installing package 'announce' from packages
+Installing package 'ap51-flash' from packages
+Installing package 'apache' from packages
+Installing package 'apr' from packages
+Installing package 'apr-util' from packages
+Installing package 'expat' from packages
+Installing package 'sqlite3' from packages
+Installing package 'unixodbc' from packages
+Installing package 'postgresql' from packages
+Installing package 'apcupsd' from packages
+Installing package 'libgd' from packages
+Installing package 'libjpeg' from packages
+Installing package 'libpng' from packages
+Installing package 'tiff' from packages
+Installing package 'freetype' from packages
+Installing package 'apinger' from packages
+Installing package 'aria2' from packages
+Installing package 'gnutls' from packages
+Installing package 'libtasn1' from packages
+Installing package 'p11-kit' from packages
+Installing package 'libgcrypt' from packages
+Installing package 'libgpg-error' from packages
+Installing package 'libxml2' from packages
+Installing package 'libssh2' from packages
+Installing package 'c-ares' from packages
+Installing package 'ariang' from packages
+Installing package 'arp-scan' from packages
+Installing package 'at' from packages
+Installing package 'atftp' from packages
+Installing package 'attendedsysupgrade-common' from packages
+Installing package 'auc' from packages
+Installing package 'autoconf' from packages
+Installing package 'm4' from packages
+Installing package 'perl' from packages
+Installing package 'db47' from packages
+Installing package 'gdbm' from packages
+Installing package 'automake' from packages
+Installing package 'autossh' from packages
+Installing package 'avahi' from packages
+Installing package 'intltool' from packages
+Installing package 'dbus' from packages
+Installing package 'libdaemon' from packages
+Installing package 'avrdude' from packages
+Installing package 'libftdi1' from packages
+Installing package 'confuse' from packages
+Installing package 'avro' from packages
+Installing package 'jansson' from packages
+Installing package 'xz' from packages
+Installing package 'bash' from packages
+Installing package 'bandwidthd' from packages
+Installing package 'php7' from packages
+Installing package 'zoneinfo' from packages
+Installing package 'uw-imap' from packages
+Installing package 'icu' from packages
+Installing package 'openldap' from packages
+Installing package 'cyrus-sasl' from packages
+Installing package 'net-snmp' from packages
+Installing package 'banhosts' from packages
+Installing package 'banip' from packages
+Installing package 'bc' from packages
+Installing package 'bcp38' from packages
+Installing package 'bcrypt' from packages
+Installing package 'libffi' from packages
+Installing package 'python' from packages
+Installing package 'python-pip-conf' from packages
+Installing package 'bluez' from packages
+Installing package 'glib2' from packages
+Installing package 'libical' from packages
+Installing package 'python-cffi' from packages
+Installing package 'python-pycparser' from packages
+Installing package 'python-ply' from packages
+Installing package 'python3' from packages
+Installing package 'python-six' from packages
+Installing package 'beanstalkd' from packages
+Installing package 'beep' from packages
+Installing package 'bind' from packages
+Installing package 'bitlbee' from packages
+Installing package 'bluelog' from packages
+Installing package 'bmon' from packages
+Installing package 'bmx7-dnsupdate' from packages
+Installing package 'bmx7' from routing
+Installing package 'inotify-tools' from packages
+Installing package 'bogofilter' from packages
+Installing package 'bonnie++' from packages
+Installing package 'boost' from packages
+Installing package 'zstd' from packages
+Installing package 'bridge-utils' from packages
+Installing package 'btrfs-progs' from packages
+Installing package 'bwm-ng' from packages
+Installing package 'canutils' from packages
+Installing package 'ccid' from packages
+Installing package 'pcsc-lite' from packages
+Installing package 'ccrypt' from packages
+Installing package 'cgi-io' from packages
+Installing package 'cgroupfs-mount' from packages
+Installing package 'chaosvpn' from packages
+Installing package 'tinc' from packages
+Installing package 'check' from packages
+Installing package 'chrony' from packages
+Installing package 'pps-tools' from packages
+Installing package 'libcap' from packages
+Installing package 'cifs-utils' from packages
+Installing package 'clamav' from packages
+Installing package 'sendmail' from packages
+Installing package 'pcre2' from packages
+Installing package 'musl-fts' from packages
+Installing package 'clamsmtp' from packages
+Installing package 'classpath' from packages
+Installing package 'file' from packages
+Installing package 'click' from packages
+Installing package 'click-log' from packages
+Installing package 'cmdpad' from packages
+Installing package 'collectd' from packages
+Installing package 'mariadb' from packages
+Installing package 'libedit' from packages
+Installing package 'libaio' from packages
+Installing package 'krb5' from packages
+Installing package 'libmodbus' from packages
+Installing package 'mosquitto' from packages
+Installing package 'libwebsockets' from packages
+Installing package 'libuv' from packages
+Installing package 'nut' from packages
+Installing package 'owfs' from packages
+Installing package 'liboping' from packages
+Installing package 'librouteros' from packages
+Installing package 'rrdtool1' from packages
+Installing package 'lm-sensors' from packages
+Installing package 'conserver' from packages
+Installing package 'containerd' from packages
+Installing package 'golang' from packages
+Installing package 'runc' from packages
+Installing package 'libseccomp' from packages
+Installing package 'coova-chilli' from packages
+Installing package 'coreutils' from packages
+Installing package 'crconf' from packages
+Installing package 'crelay' from packages
+Installing package 'hidapi' from packages
+Installing package 'crtmpserver' from packages
+Installing package 'cryptsetup' from packages
+Installing package 'lvm2' from packages
+Installing package 'cshark' from packages
+Installing package 'daemonlogger' from packages
+Installing package 'libdnet' from packages
+Installing package 'danish' from packages
+Installing package 'python-dns' from packages
+Installing package 'python-pcapy' from packages
+Installing package 'python-dpkt' from packages
+Installing package 'darkstat' from packages
+Installing package 'davfs2' from packages
+Installing package 'neon' from packages
+Installing package 'dcwapd' from packages
+Installing package 'macremapper' from packages
+Installing package 'libdcwsocket' from packages
+Installing package 'libdcwproto' from packages
+Installing package 'mrmctl' from packages
+Installing package 'ddns-scripts' from packages
+Installing package 'debootstrap' from packages
+Installing package 'dejavu-fonts-ttf' from packages
+Installing package 'dfu-programmer' from packages
+Installing package 'dfu-util' from packages
+Installing package 'dhcp-forwarder' from packages
+Installing package 'dhcpcd' from packages
+Installing package 'diffutils' from packages
+Installing package 'digitemp' from packages
+Installing package 'django' from packages
+Installing package 'python-pytz' from packages
+Installing package 'django-appconf' from packages
+Installing package 'django-compressor' from packages
+Installing package 'python-rcssmin' from packages
+Installing package 'django-constance' from packages
+Installing package 'django-formtools' from packages
+Installing package 'django-jsonfield' from packages
+Installing package 'django-picklefield' from packages
+Installing package 'django-postoffice' from packages
+Installing package 'django-ranged-response' from packages
+Installing package 'django-restframework' from packages
+Installing package 'django-simple-captcha' from packages
+Installing package 'pillow' from packages
+Installing package 'django-statici18n' from packages
+Installing package 'django-webpack-loader' from packages
+Installing package 'dkjson' from packages
+Installing package 'dmapd' from packages
+Installing package 'libdmapsharing' from packages
+Installing package 'libsoup' from packages
+Installing package 'mdnsresponder' from packages
+Installing package 'gstreamer1' from packages
+Installing package 'gst1-plugins-base' from packages
+Installing package 'libogg' from packages
+Installing package 'opus' from packages
+Installing package 'libtheora' from packages
+Installing package 'libvorbis' from packages
+Installing package 'liboil' from packages
+Installing package 'vips' from packages
+Installing package 'libexif' from packages
+Installing package 'giflib' from packages
+Installing package 'dmidecode' from packages
+Installing package 'dmx_usb_module' from packages
+Installing package 'dnscrypt-proxy' from packages
+Installing package 'libsodium' from packages
+Installing package 'ldns' from packages
+Installing package 'docker-ce' from packages
+Installing package 'libnetwork' from packages
+Installing package 'tini' from packages
+Installing package 'domoticz' from packages
+Installing package 'openzwave' from packages
+Installing package 'dosfstools' from packages
+Installing package 'dovecot' from packages
+Installing package 'dtc' from packages
+Installing package 'dtndht' from packages
+Installing package 'dump1090' from packages
+Installing package 'rtl-sdr' from packages
+Installing package 'dvtm' from packages
+Installing package 'dynapoint' from packages
+Installing package 'e2guardian' from packages
+Installing package 'ecdsautils' from packages
+Installing package 'libuecc' from packages
+Installing package 'elektra' from packages
+Installing package 'swig' from packages
+Installing package 'libxerces-c' from packages
+Installing package 'libyaml-cpp' from packages
+Installing package 'yajl' from packages
+Installing package 'emailrelay' from packages
+Installing package 'erlang' from packages
+Installing package 'esniper' from packages
+Installing package 'espeak' from packages
+Installing package 'portaudio' from packages
+Installing package 'etherwake' from packages
+Installing package 'eventlog' from packages
+Installing package 'evtest' from packages
+Installing package 'exfat-nofuse' from packages
+Installing package 'faad2' from packages
+Installing package 'fakeidentd' from packages
+Installing package 'fastd' from packages
+Installing package 'nacl' from packages
+Installing package 'fcgi' from packages
+Installing package 'fdk-aac' from packages
+Installing package 'fdm' from packages
+Installing package 'tdb' from packages
+Installing package 'ffmpeg' from packages
+Installing package 'lame' from packages
+Installing package 'libx264' from packages
+Installing package 'shine' from packages
+Installing package 'fftw3' from packages
+Installing package 'findutils' from packages
+Installing package 'flac' from packages
+Installing package 'flashrom' from packages
+Installing package 'Flask' from packages
+Installing package 'itsdangerous' from packages
+Installing package 'Jinja2' from packages
+Installing package 'MarkupSafe' from packages
+Installing package 'Werkzeug' from packages
+Installing package 'flent-tools' from packages
+Installing package 'flup' from packages
+Installing package 'fontconfig' from packages
+Installing package 'foolsm' from packages
+Installing package 'ssmtp' from packages
+Installing package 'forked-daapd' from packages
+Installing package 'gperf' from packages
+Installing package 'libunistring' from packages
+Installing package 'libantlr3c' from packages
+Installing package 'mxml' from packages
+Installing package 'libplist' from packages
+Installing package 'protobuf-c' from packages
+Installing package 'protobuf' from packages
+Installing package 'fossil' from packages
+Installing package 'fping' from packages
+Installing package 'freeradius3' from packages
+Installing package 'libtalloc' from packages
+Installing package 'fswebcam' from packages
+Installing package 'fwknop' from packages
+Installing package 'gnupg' from packages
+Installing package 'gammu' from packages
+Installing package 'gawk' from packages
+Installing package 'gcc' from packages
+Installing package 'getdns' from packages
+Installing package 'unbound' from packages
+Installing package 'git' from packages
+Installing package 'perl-cgi' from packages
+Installing package 'perl-html-parser' from packages
+Installing package 'perl-html-tagset' from packages
+Installing package 'gitolite' from packages
+Installing package 'openssh' from packages
+Installing package 'gkermit' from packages
+Installing package 'glpk' from packages
+Installing package 'gnunet' from packages
+Installing package 'libidn' from packages
+Installing package 'pulseaudio' from packages
+Installing package 'libsndfile' from packages
+Installing package 'tcp_wrappers' from packages
+Installing package 'sbc' from packages
+Installing package 'libextractor' from packages
+Installing package 'libarchive' from packages
+Installing package 'libmpeg2' from packages
+Installing package 'gnurl' from packages
+Installing package 'libmicrohttpd' from packages
+Installing package 'gphoto2' from packages
+Installing package 'libgphoto2' from packages
+Installing package 'gpsd' from packages
+Installing package 'scons' from packages
+Installing package 'gptfdisk' from packages
+Installing package 'grep' from packages
+Installing package 'greyfix' from packages
+Installing package 'grilo' from packages
+Installing package 'grilo-plugins' from packages
+Installing package 'gst1-libav' from packages
+Installing package 'gst1-plugins-bad' from packages
+Installing package 'gst1-plugins-good' from packages
+Installing package 'libv4l' from packages
+Installing package 'libvpx' from packages
+Installing package 'gst1-plugins-ugly' from packages
+Installing package 'libid3tag' from packages
+Installing package 'mpg123' from packages
+Installing package 'gunicorn' from packages
+Installing package 'gzip' from packages
+Installing package 'hamlib' from packages
+Installing package 'haproxy' from packages
+Installing package 'haserl' from packages
+Installing package 'haveged' from packages
+Installing package 'hd-idle' from packages
+Installing package 'hdparm' from packages
+Installing package 'hfsprogs' from packages
+Installing package 'hiredis' from packages
+Installing package 'homeassistant' from packages
+Installing package 'python-aiohttp' from packages
+Installing package 'python-attrs' from packages
+Installing package 'python-chardet' from packages
+Installing package 'python-multidict' from packages
+Installing package 'python-async-timeout' from packages
+Installing package 'python-yarl' from packages
+Installing package 'python-idna' from packages
+Installing package 'python-aiohttp-cors' from packages
+Installing package 'python-astral' from packages
+Installing package 'python-certifi' from packages
+Installing package 'python-cryptography' from packages
+Installing package 'python-enum34' from packages
+Installing package 'python-ipaddress' from packages
+Installing package 'python-ifaddr' from packages
+Installing package 'python-importlib-metadata' from packages
+Installing package 'python3-zipp' from packages
+Installing package 'python-netdisco' from packages
+Installing package 'python-requests' from packages
+Installing package 'python-urllib3' from packages
+Installing package 'python-zeroconf' from packages
+Installing package 'pyjwt' from packages
+Installing package 'python-pyotp' from packages
+Installing package 'python-slugify' from packages
+Installing package 'text-unidecode' from packages
+Installing package 'python-sqlalchemy' from packages
+Installing package 'ruamel-yaml' from packages
+Installing package 'python-voluptuous' from packages
+Installing package 'python-voluptuous-serialize' from packages
+Installing package 'python-yaml' from packages
+Installing package 'yaml' from packages
+Installing package 'horst' from packages
+Installing package 'htop' from packages
+Installing package 'htpdate' from packages
+Installing package 'httping' from packages
+Installing package 'https-dns-proxy' from packages
+Installing package 'libev' from packages
+Installing package 'hub-ctrl' from packages
+Installing package 'i2c-tools' from packages
+Installing package 'i2pd' from packages
+Installing package 'ibrcommon' from packages
+Installing package 'ibrdtn' from packages
+Installing package 'ibrdtn-tools' from packages
+Installing package 'ibrdtnd' from packages
+Installing package 'icecast' from packages
+Installing package 'libxslt' from packages
+Installing package 'libvorbisidec' from packages
+Installing package 'ices' from packages
+Installing package 'libshout' from packages
+Installing package 'ifstat' from packages
+Installing package 'inadyn' from packages
+Installing package 'io' from packages
+Installing package 'iodine' from packages
+Installing package 'iotivity' from packages
+Installing package 'ipmitool' from packages
+Installing package 'ipsec-tools' from packages
+Installing package 'iptraf-ng' from packages
+Installing package 'irqbalance' from packages
+Installing package 'irssi' from packages
+Installing package 'isc-dhcp' from packages
+Installing package 'jamvm' from packages
+Installing package 'joe' from packages
+Installing package 'jool' from packages
+Installing package 'jq' from packages
+Installing package 'json4lua' from packages
+Installing package 'luasocket' from packages
+Installing package 'kadnode' from packages
+Installing package 'miniupnpc' from packages
+Installing package 'libnatpmp' from packages
+Installing package 'keepalived' from packages
+Installing package 'keyutils' from packages
+Installing package 'kismet' from packages
+Installing package 'klish' from packages
+Installing package 'knot' from packages
+Installing package 'liburcu' from packages
+Installing package 'knxd' from packages
+Installing package 'libfmt' from packages
+Installing package 'kplex' from packages
+Installing package 'lcd4linux' from packages
+Installing package 'libmpdclient' from packages
+Installing package 'lcdgrilo' from packages
+Installing package 'vala' from packages
+Installing package 'libgee' from packages
+Installing package 'lcdproc' from packages
+Installing package 'libugpio' from packages
+Installing package 'lcdringer' from packages
+Installing package 'loudmouth' from packages
+Installing package 'ldbus' from packages
+Installing package 'luarocks' from packages
+Installing package 'unzip' from packages
+Installing package 'luasec' from packages
+Installing package 'less' from packages
+Installing package 'lftp' from packages
+Installing package 'libao' from packages
+Installing package 'libartnet' from packages
+Installing package 'libaudiofile' from packages
+Installing package 'libavl' from packages
+Installing package 'libcanfestival' from packages
+Installing package 'libcoap' from packages
+Installing package 'libdaq' from packages
+Installing package 'libdbi' from packages
+Installing package 'libdbi-drivers' from packages
+Installing package 'libdouble-conversion' from packages
+Installing package 'libdrm' from packages
+Installing package 'libesmtp' from packages
+Installing package 'libestr' from packages
+Installing package 'libevdev' from packages
+Installing package 'libevhtp' from packages
+Installing package 'libfastjson' from packages
+Installing package 'libftdi' from packages
+Installing package 'libglog' from packages
+Installing package 'libgpiod' from packages
+Installing package 'libhttp-parser' from packages
+Installing package 'libiio' from packages
+Installing package 'libimobiledevice' from packages
+Installing package 'libusbmuxd' from packages
+Installing package 'libinput' from packages
+Installing package 'mtdev' from packages
+Installing package 'libudev-fbsd' from packages
+Installing package 'liblo' from packages
+Installing package 'liblz4' from packages
+Installing package 'libmad' from packages
+Installing package 'libmaxminddb' from packages
+Installing package 'libmbim' from packages
+Installing package 'libmcrypt' from packages
+Installing package 'libmms' from packages
+Installing package 'libmraa' from packages
+Installing package 'node' from packages
+Installing package 'libndpi' from packages
+Installing package 'libnet-1.2.x' from packages
+Installing package 'libnetconf2' from packages
+Installing package 'libyang' from packages
+Installing package 'libssh' from packages
+Installing package 'libnetfilter-acct' from packages
+Installing package 'libnopoll' from packages
+Installing package 'libowfat' from packages
+Installing package 'libp11' from packages
+Installing package 'libqmi' from packages
+Installing package 'libradcli' from packages
+Installing package 'libredblack' from packages
+Installing package 'libsamplerate' from packages
+Installing package 'libsearpc' from packages
+Installing package 'libsigc++' from packages
+Installing package 'libsoc' from packages
+Installing package 'libsoxr' from packages
+Installing package 'libstrophe' from packages
+Installing package 'libtins' from packages
+Installing package 'libtirpc' from packages
+Installing package 'libtool-bin' from packages
+Installing package 'libtorrent' from packages
+Installing package 'libuhttpd' from packages
+Installing package 'libupm' from packages
+Installing package 'libupnp' from packages
+Installing package 'libupnpp' from packages
+Installing package 'libuvc' from packages
+Installing package 'libuwsc' from packages
+Installing package 'libzdb' from packages
+Installing package 'lighttpd' from packages
+Installing package 'linknx' from packages
+Installing package 'pthsem' from packages
+Installing package 'linuxptp' from packages
+Installing package 'lispmob' from packages
+Installing package 'lksctp-tools' from packages
+Installing package 'logrotate' from packages
+Installing package 'lpc21isp' from packages
+Installing package 'lpeg' from packages
+Installing package 'lrzsz' from packages
+Installing package 'lsof' from packages
+Installing package 'lttng-modules' from packages
+Installing package 'lttng-tools' from packages
+Installing package 'lttng-ust' from packages
+Installing package 'lua-bencode' from packages
+Installing package 'lua-cjson' from packages
+Installing package 'lua-copas' from packages
+Installing package 'lua-coxpcall' from packages
+Installing package 'lua-lsqlite3' from packages
+Installing package 'lua-lzlib' from packages
+Installing package 'lua-md5' from packages
+Installing package 'lua-mobdebug' from packages
+Installing package 'lua-mosquitto' from packages
+Installing package 'lua-openssl' from packages
+Installing package 'lua-penlight' from packages
+Installing package 'luafilesystem' from packages
+Installing package 'lua-rings' from packages
+Installing package 'lua-rs232' from packages
+Installing package 'lua-sha2' from packages
+Installing package 'lua-wsapi' from packages
+Installing package 'lua-xavante' from packages
+Installing package 'luabitop' from packages
+Installing package 'luaexpat' from packages
+Installing package 'luajit' from packages
+Installing package 'lualanes' from packages
+Installing package 'luaposix' from packages
+Installing package 'luasoap' from packages
+Installing package 'luasql' from packages
+Installing package 'luv' from packages
+Installing package 'lxc' from packages
+Installing package 'shadow' from packages
+Installing package 'lzmq' from packages
+Installing package 'zmq' from packages
+Installing package 'mac-telnet' from packages
+Installing package 'macchanger' from packages
+Installing package 'madplay' from packages
+Installing package 'mailman' from packages
+Installing package 'postfix' from packages
+Installing package 'tinycdb' from packages
+Installing package 'mailsend' from packages
+Installing package 'make' from packages
+Installing package 'mbtools' from packages
+Installing package 'mc' from packages
+Installing package 'memcached' from packages
+Installing package 'micropython' from packages
+Installing package 'micropython-lib' from packages
+Installing package 'mii-tool' from packages
+Installing package 'mikrotik-btest' from packages
+Installing package 'mini_snmpd' from packages
+Installing package 'minicom' from packages
+Installing package 'minidlna' from packages
+Installing package 'miniupnpd' from packages
+Installing package 'mjpg-streamer' from packages
+Installing package 'mksh' from packages
+Installing package 'mktorrent' from packages
+Installing package 'mmc-utils' from packages
+Installing package 'mocp' from packages
+Installing package 'modemmanager' from packages
+Installing package 'monit' from packages
+Installing package 'moreutils' from packages
+Installing package 'motion' from packages
+Installing package 'mpack' from packages
+Installing package 'mpc' from packages
+Installing package 'mpd' from packages
+Installing package 'msmtp' from packages
+Installing package 'msmtp-scripts' from packages
+Installing package 'xinetd' from packages
+Installing package 'mt-st' from packages
+Installing package 'mtd-rw' from packages
+Installing package 'mtr' from packages
+Installing package 'muninlite' from packages
+Installing package 'mutt' from packages
+Installing package 'mwan3' from packages
+Installing package 'nail' from packages
+Installing package 'nano' from packages
+Installing package 'nbd' from packages
+Installing package 'ncdu' from packages
+Installing package 'ncp' from packages
+Installing package 'netatalk' from packages
+Installing package 'netcat' from packages
+Installing package 'netdata' from packages
+Installing package 'netdiscover' from packages
+Installing package 'netopeer2' from packages
+Installing package 'sysrepo' from packages
+Installing package 'netperf' from packages
+Installing package 'netwhere' from packages
+Installing package 'nextdns' from packages
+Installing package 'nfs-kernel-server' from packages
+Installing package 'rpcbind' from packages
+Installing package 'nginx' from packages
+Installing package 'uwsgi-cgi' from packages
+Installing package 'ngircd' from packages
+Installing package 'nlbwmon' from packages
+Installing package 'nmap' from packages
+Installing package 'noddos' from packages
+Installing package 'node-arduino-firmata' from packages
+Installing package 'node-serialport' from packages
+Installing package 'node-cylon' from packages
+Installing package 'node-hid' from packages
+Installing package 'node-mozilla-iot-gateway' from packages
+Installing package 'nsd' from packages
+Installing package 'ntfs-3g' from packages
+Installing package 'ntpclient' from packages
+Installing package 'ntpd' from packages
+Installing package 'ntripcaster' from packages
+Installing package 'ntripclient' from packages
+Installing package 'ntripserver' from packages
+Installing package 'oath-toolkit' from packages
+Installing package 'obfsproxy' from packages
+Installing package 'python-crypto' from packages
+Installing package 'python-pyptlib' from packages
+Installing package 'python-twisted' from packages
+Installing package 'python-automat' from packages
+Installing package 'python-constantly' from packages
+Installing package 'python-incremental' from packages
+Installing package 'python-hyperlink' from packages
+Installing package 'python-zope-interface' from packages
+Installing package 'ocserv' from packages
+Installing package 'oggfwd' from packages
+Installing package 'ola' from packages
+Installing package 'oniguruma' from packages
+Installing package 'open-plc-utils' from packages
+Installing package 'open-vm-tools' from packages
+Installing package 'open2300' from packages
+Installing package 'openconnect' from packages
+Installing package 'vpnc-scripts' from packages
+Installing package 'stoken' from packages
+Installing package 'opencv' from packages
+Installing package 'opendkim' from packages
+Installing package 'opennhrp' from packages
+Installing package 'openobex' from packages
+Installing package 'openocd' from packages
+Installing package 'openpyxl' from packages
+Installing package 'python-defusedxml' from packages
+Installing package 'python-et_xmlfile' from packages
+Installing package 'python-lxml' from packages
+Installing package 'python-jdcal' from packages
+Installing package 'opensc' from packages
+Installing package 'opentracker' from packages
+Installing package 'openvswitch' from packages
+Installing package 'openwisp-config' from packages
+Installing package 'opus-tools' from packages
+Installing package 'p910nd' from packages
+Installing package 'pagekitec' from packages
+Installing package 'passlib' from packages
+Installing package 'python-dateutil' from packages
+Installing package 'patch' from packages
+Installing package 'pcmciautils' from packages
+Installing package 'pcsc-tools' from packages
+Installing package 'pen' from packages
+Installing package 'perl-authen-sasl' from packages
+Installing package 'perl-authen-sasl-xs' from packages
+Installing package 'perl-compress-bzip2' from packages
+Installing package 'perl-dbi' from packages
+Installing package 'perl-device-serialport' from packages
+Installing package 'perl-device-usb' from packages
+Installing package 'perl-inline-c' from packages
+Installing package 'perl-inline' from packages
+Installing package 'perl-parse-recdescent' from packages
+Installing package 'perl-file-sharedir-install' from packages
+Installing package 'perl-encode-locale' from packages
+Installing package 'perl-file-listing' from packages
+Installing package 'perl-http-date' from packages
+Installing package 'perl-html-form' from packages
+Installing package 'perl-http-message' from packages
+Installing package 'perl-io-html' from packages
+Installing package 'perl-lwp-mediatypes' from packages
+Installing package 'perl-uri' from packages
+Installing package 'perl-html-tree' from packages
+Installing package 'perl-http-cookies' from packages
+Installing package 'perl-http-daemon' from packages
+Installing package 'perl-http-negotiate' from packages
+Installing package 'perl-http-server-simple' from packages
+Installing package 'perl-lockfile-simple' from packages
+Installing package 'perl-net-http' from packages
+Installing package 'perl-net-telnet' from packages
+Installing package 'perl-sub-uplevel' from packages
+Installing package 'perl-test-harness' from packages
+Installing package 'perl-test-warn' from packages
+Installing package 'perl-text-csv_xs' from packages
+Installing package 'perl-www' from packages
+Installing package 'perl-www-robotrules' from packages
+Installing package 'perl-www-curl' from packages
+Installing package 'perl-www-mechanize' from packages
+Installing package 'perl-xml-parser' from packages
+Installing package 'php7-pecl-dio' from packages
+Installing package 'php7-pecl-http' from packages
+Installing package 'php7-pecl-propro' from packages
+Installing package 'php7-pecl-raphf' from packages
+Installing package 'php7-pecl-libevent' from packages
+Installing package 'pianod' from packages
+Installing package 'picocom' from packages
+Installing package 'pigeonhole' from packages
+Installing package 'pingcheck' from packages
+Installing package 'pixiewps' from packages
+Installing package 'pixman' from packages
+Installing package 'pkg-config' from packages
+Installing package 'poco' from packages
+Installing package 'polipo' from packages
+Installing package 'port-mirroring' from packages
+Installing package 'portmap' from packages
+Installing package 'pppossh' from packages
+Installing package 'pptpd' from packages
+Installing package 'privoxy' from packages
+Installing package 'progress' from packages
+Installing package 'prometheus-node-exporter-lua' from packages
+Installing package 'bmx6' from routing
+Installing package 'prosody' from packages
+Installing package 'psqlodbc' from packages
+Installing package 'pv' from packages
+Installing package 'pyodbc' from packages
+Installing package 'python-appdirs' from packages
+Installing package 'python-asn1crypto' from packages
+Installing package 'python-awscli' from packages
+Installing package 'python-pyasn1' from packages
+Installing package 'python-botocore' from packages
+Installing package 'python-docutils' from packages
+Installing package 'python-jmespath' from packages
+Installing package 'python-rsa' from packages
+Installing package 'python-colorama' from packages
+Installing package 'python-s3transfer' from packages
+Installing package 'python-futures' from packages
+Installing package 'python-boto3' from packages
+Installing package 'python-cachelib' from packages
+Installing package 'python-cachetools' from packages
+Installing package 'python-contextlib2' from packages
+Installing package 'python-crcmod' from packages
+Installing package 'python-cryptodome' from packages
+Installing package 'python-cryptodomex' from packages
+Installing package 'python-curl' from packages
+Installing package 'python-decorator' from packages
+Installing package 'python-egenix-mx-base' from packages
+Installing package 'python-evdev' from packages
+Installing package 'python-gmpy2' from packages
+Installing package 'python-gnupg' from packages
+Installing package 'python-influxdb' from packages
+Installing package 'python-intelhex' from packages
+Installing package 'python-jsonpath-ng' from packages
+Installing package 'python-ldap' from packages
+Installing package 'python-markdown' from packages
+Installing package 'python-mysql' from packages
+Installing package 'python-oauthlib' from packages
+Installing package 'python-packages' from packages
+Installing package 'python-paho-mqtt' from packages
+Installing package 'python-parsley' from packages
+Installing package 'python-psycopg2' from packages
+Installing package 'python-pyasn1-modules' from packages
+Installing package 'python-pyopenssl' from packages
+Installing package 'python-pyrsistent' from packages
+Installing package 'python-pyserial' from packages
+Installing package 'python-qrcode' from packages
+Installing package 'python-requests-oauthlib' from packages
+Installing package 'python-schema' from packages
+Installing package 'python-sentry-sdk' from packages
+Installing package 'python-service-identity' from packages
+Installing package 'python-simplejson' from packages
+Installing package 'python-txsocksx' from packages
+Installing package 'python3-bottle' from packages
+Installing package 'python3-flask-login' from packages
+Installing package 'python3-maxminddb' from packages
+Installing package 'python3-netifaces' from packages
+Installing package 'python3-packages' from packages
+Installing package 'python3-pyroute2' from packages
+Installing package 'python3-unidecode' from packages
+Installing package 'qemu' from packages
+Installing package 'spice-protocol' from packages
+Installing package 'spice' from packages
+Installing package 'qrencode' from packages
+Installing package 'quassel-irssi' from packages
+Installing package 'quasselc' from packages
+Installing package 'radicale' from packages
+Installing package 'radicale2' from packages
+Installing package 'vobject' from packages
+Installing package 'radsecproxy' from packages
+Installing package 'reaver' from packages
+Installing package 'redsocks' from packages
+Installing package 'relayctl' from packages
+Installing package 'remserial' from packages
+Installing package 'rng-tools' from packages
+Installing package 'rosy-file-server' from packages
+Installing package 'rp-pppoe' from packages
+Installing package 'rpcd-mod-lxc' from packages
+Installing package 'rpcsvc-proto' from packages
+Installing package 'rsync' from packages
+Installing package 'rsyslog' from packages
+Installing package 'rtklib' from packages
+Installing package 'rtl-ais' from packages
+Installing package 'rtl_433' from packages
+Installing package 'rtorrent' from packages
+Installing package 'xmlrpc-c' from packages
+Installing package 'rtty' from packages
+Installing package 'ruby' from packages
+Installing package 'rxtx' from packages
+Installing package 'sane-backends' from packages
+Installing package 'scapy' from packages
+Installing package 'screen' from packages
+Installing package 'seafile-ccnet' from packages
+Installing package 'seafile-seahub' from packages
+Installing package 'seafile-server' from packages
+Installing package 'ser2net' from packages
+Installing package 'serialconsole' from packages
+Installing package 'setserial' from packages
+Installing package 'shadowsocks-client' from packages
+Installing package 'shadowsocks-libev' from packages
+Installing package 'shairplay' from packages
+Installing package 'shairport-sync' from packages
+Installing package 'shorewall' from packages
+Installing package 'shorewall-core' from packages
+Installing package 'shorewall-lite' from packages
+Installing package 'shorewall6' from packages
+Installing package 'shorewall6-lite' from packages
+Installing package 'siit' from packages
+Installing package 'simple-adblock' from packages
+Installing package 'sispmctl' from packages
+Installing package 'slide-switch' from packages
+Installing package 'smartmontools' from packages
+Installing package 'smartsnmpd' from packages
+Installing package 'smstools3' from packages
+Installing package 'snort' from packages
+Installing package 'sockread' from packages
+Installing package 'softethervpn' from packages
+Installing package 'softflowd' from packages
+Installing package 'sox' from packages
+Installing package 'spawn-fcgi' from packages
+Installing package 'speex' from packages
+Installing package 'speexdsp' from packages
+Installing package 'spi-tools' from packages
+Installing package 'sqm-scripts' from packages
+Installing package 'sqm-scripts-extra' from packages
+Installing package 'squashfs-tools' from packages
+Installing package 'squeezelite' from packages
+Installing package 'squid' from packages
+Installing package 'sshfs' from packages
+Installing package 'sshtunnel' from packages
+Installing package 'sslh' from packages
+Installing package 'sstp-client' from packages
+Installing package 'stm32flash' from packages
+Installing package 'stress' from packages
+Installing package 'strongswan' from packages
+Installing package 'stubby' from packages
+Installing package 'stunnel' from packages
+Installing package 'subversion' from packages
+Installing package 'sudo' from packages
+Installing package 'sumo' from packages
+Installing package 'svox' from packages
+Installing package 'syslog-ng' from packages
+Installing package 'sysstat' from packages
+Installing package 'tar' from packages
+Installing package 'taskwarrior' from packages
+Installing package 'tayga' from packages
+Installing package 'tcl' from packages
+Installing package 'tcpproxy' from packages
+Installing package 'tcpreplay' from packages
+Installing package 'tcsh' from packages
+Installing package 'tgt' from packages
+Installing package 'tinyproxy' from packages
+Installing package 'tio' from packages
+Installing package 'tmux' from packages
+Installing package 'tor' from packages
+Installing package 'tracertools' from packages
+Installing package 'transmission' from packages
+Installing package 'transmission-web-control' from packages
+Installing package 'travelmate' from packages
+Installing package 'tree' from packages
+Installing package 'triggerhappy' from packages
+Installing package 'ttyd' from packages
+Installing package 'tvheadend' from packages
+Installing package 'u2pnpd' from packages
+Installing package 'uanytun' from packages
+Installing package 'udns' from packages
+Installing package 'udpxy' from packages
+Installing package 'uledd' from packages
+Installing package 'ulogd' from packages
+Installing package 'umurmur' from packages
+Installing package 'unrar' from packages
+Installing package 'upmpdcli' from packages
+Installing package 'usbip' from packages
+Installing package 'usbmuxd' from packages
+Installing package 'uuid' from packages
+Installing package 'uvcdynctrl' from packages
+Installing package 'v4l2rtspserver' from packages
+Installing package 'vallumd' from packages
+Installing package 'vim' from packages
+Installing package 'vncrepeater' from packages
+Installing package 'vnstat' from packages
+Installing package 'vpnbypass' from packages
+Installing package 'vpnc' from packages
+Installing package 'vsftpd' from packages
+Installing package 'wakeonlan' from packages
+Installing package 'watchcat' from packages
+Installing package 'wavemon' from packages
+Installing package 'webui-aria2' from packages
+Installing package 'wifidog' from packages
+Installing package 'wifidog-ng' from packages
+Installing package 'wifischedule' from packages
+Installing package 'wifitoggle' from packages
+Installing package 'xl2tpd' from packages
+Installing package 'xmltodict' from packages
+Installing package 'xr_usb_serial_common' from packages
+Installing package 'xtables-addons' from packages
+Installing package 'xupnpd' from packages
+Installing package 'yaaw' from packages
+Installing package 'yara' from packages
+Installing package 'youtube-dl' from packages
+Installing package 'zip' from packages
+Installing package 'yunbridge' from packages
+Installing package 'zabbix' from packages
+Installing package 'zerotier' from packages
+Installing package 'zile' from packages
+Installing package 'znc' from packages
+Installing package 'zsh' from packages
+Installing all packages from feed luci.
+Installing package 'community-profiles' from luci
+Installing package 'freifunk-common' from luci
+Installing package 'freifunk-firewall' from luci
+Installing package 'freifunk-gwcheck' from luci
+Installing package 'olsrd' from routing
+Installing package 'freifunk-mapupdate' from luci
+Installing package 'freifunk-policyrouting' from luci
+Installing package 'freifunk-watchdog' from luci
+Installing package 'luci' from luci
+Installing package 'luci-mod-admin-full' from luci
+Installing package 'luci-theme-bootstrap' from luci
+Installing package 'luci-app-firewall' from luci
+Installing package 'luci-proto-ppp' from luci
+Installing package 'rpcd-mod-rrdns' from luci
+Installing package 'luci-app-adblock' from luci
+Installing package 'luci-app-advanced-reboot' from luci
+Installing package 'luci-app-ahcp' from luci
+Installing package 'ahcpd' from routing
+Installing package 'luci-app-aria2' from luci
+Installing package 'luci-app-asterisk' from luci
+Installing package 'luci-app-attendedsysupgrade' from luci
+Installing package 'luci-app-bcp38' from luci
+Installing package 'luci-app-clamav' from luci
+Installing package 'luci-app-commands' from luci
+Installing package 'luci-app-coovachilli' from luci
+Installing package 'luci-app-cshark' from luci
+Installing package 'luci-app-ddns' from luci
+Installing package 'luci-app-diag-core' from luci
+Installing package 'luci-app-dnscrypt-proxy' from luci
+Installing package 'luci-lib-httpprotoutils' from luci
+Installing package 'luci-app-dump1090' from luci
+Installing package 'luci-app-dynapoint' from luci
+Installing package 'luci-app-e2guardian' from luci
+Installing package 'luci-app-freifunk-diagnostics' from luci
+Installing package 'luci-app-freifunk-policyrouting' from luci
+Installing package 'luci-app-freifunk-widgets' from luci
+Installing package 'luci-mod-freifunk' from luci
+Installing package 'luci-lib-json' from luci
+Installing package 'luci-app-fwknopd' from luci
+Installing package 'luci-app-hd-idle' from luci
+Installing package 'luci-app-ltqtapi' from luci
+Installing package 'luci-app-lxc' from luci
+Installing package 'luci-app-meshwizard' from luci
+Installing package 'meshwizard' from luci
+Installing package 'luci-app-minidlna' from luci
+Installing package 'luci-app-mjpg-streamer' from luci
+Installing package 'luci-app-mwan3' from luci
+Installing package 'luci-app-nlbwmon' from luci
+Installing package 'luci-app-noddos' from luci
+Installing package 'luci-app-ntpc' from luci
+Installing package 'luci-app-ocserv' from luci
+Installing package 'luci-app-olsr' from luci
+Installing package 'luci-lib-luaneightbl' from luci
+Installing package 'luci-app-olsr-services' from luci
+Installing package 'luci-app-olsr-viz' from luci
+Installing package 'luci-app-openvpn' from luci
+Installing package 'luci-app-p910nd' from luci
+Installing package 'luci-app-pagekitec' from luci
+Installing package 'luci-app-polipo' from luci
+Installing package 'luci-app-privoxy' from luci
+Installing package 'luci-app-qos' from luci
+Installing package 'luci-app-radicale' from luci
+Installing package 'luci-app-rp-pppoe-server' from luci
+Installing package 'luci-app-samba' from luci
+Installing package 'luci-app-shadowsocks-libev' from luci
+Installing package 'luci-app-shairplay' from luci
+Installing package 'luci-app-siitwizard' from luci
+Installing package 'luci-app-simple-adblock' from luci
+Installing package 'luci-app-splash' from luci
+Installing package 'luci-app-squid' from luci
+Installing package 'luci-app-statistics' from luci
+Installing package 'luci-app-tinyproxy' from luci
+Installing package 'luci-app-transmission' from luci
+Installing package 'luci-app-travelmate' from luci
+Installing package 'luci-app-udpxy' from luci
+Installing package 'luci-app-uhttpd' from luci
+Installing package 'luci-app-unbound' from luci
+Installing package 'luci-app-upnp' from luci
+Installing package 'luci-app-vnstat' from luci
+Installing package 'luci-app-vpnbypass' from luci
+Installing package 'luci-app-watchcat' from luci
+Installing package 'luci-app-wifischedule' from luci
+Installing package 'luci-app-wireguard' from luci
+Installing package 'luci-proto-wireguard' from luci
+Installing package 'luci-app-wol' from luci
+Installing package 'luci-lib-httpclient' from luci
+Installing package 'luci-lib-iptparser' from luci
+Installing package 'luci-lib-px5g' from luci
+Installing package 'luci-lib-rpcc' from luci
+Installing package 'luci-mod-admin-mini' from luci
+Installing package 'luci-mod-failsafe' from luci
+Installing package 'luci-mod-freifunk-community' from luci
+Installing package 'luci-mod-rpc' from luci
+Installing package 'luci-proto-3g' from luci
+Installing package 'luci-proto-ipip' from luci
+Installing package 'luci-proto-ipv6' from luci
+Installing package 'luci-proto-ncm' from luci
+Installing package 'luci-proto-openconnect' from luci
+Installing package 'luci-proto-qmi' from luci
+Installing package 'luci-proto-relay' from luci
+Installing package 'luci-proto-vpnc' from luci
+Installing package 'luci-ssl-openssl' from luci
+Installing package 'luci-theme-material' from luci
+Installing all packages from feed routing.
+Installing package 'alfred' from routing
+Installing package 'babel-pinger' from routing
+Installing package 'babeld' from routing
+Installing package 'batctl' from routing
+Installing package 'batman-adv' from routing
+Installing package 'batmand' from routing
+Installing package 'bird1' from routing
+Installing package 'bird1-ipv4-openwrt' from routing
+Installing package 'bird1-ipv6-openwrt' from routing
+Installing package 'bird2' from routing
+Installing package 'cjdns' from routing
+Installing package 'hnetd' from routing
+Installing package 'ohybridproxy' from routing
+Installing package 'minimalist-pcproxy' from routing
+Installing package 'luci-app-bmx6' from routing
+Installing package 'luci-app-bmx7' from routing
+Installing package 'luci-app-cjdns' from routing
+Installing package 'mcproxy' from routing
+Installing package 'mrd6' from routing
+Installing package 'ndppd' from routing
+Installing package 'nodogsplash' from routing
+Installing package 'oonf-dlep-proxy' from routing
+Installing package 'oonf-init-scripts' from routing
+Installing package 'oonf-dlep-radio' from routing
+Installing package 'oonf-olsrd2' from routing
+Installing package 'pimbd' from routing
+Installing package 'prince' from routing
+Installing package 'quagga' from routing
+Installing package 'vis' from routing
