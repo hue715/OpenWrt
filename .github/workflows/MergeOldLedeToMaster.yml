@@ -9,11 +9,12 @@
 name: MergeLede-19.07ToMaster
 
 on:
+  workflow_dispatch: # 手动触发
   schedule:
-    - cron: 00 */1 * * *
-  push:
-     branches: 
-       - master
+    - cron: 00 */24 * * *
+#  push:
+#     branches: 
+#       - master
 
 jobs:
 
